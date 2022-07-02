@@ -1,190 +1,136 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
   <head>
-    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <meta content="http://muan.co/images/og.png" property="og:image">
-    <meta content="@muanchiou" property="og:title">
-    <meta content="http://muan.co" property="og:url">
-    <title>404</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
+    <!-- <title>Multi Step Form | CodingNepal</title> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="page-ath-wrap">
-                    <div class="page-ath-content register-form-content">
-                        <div class="page-ath-form">
-                            <div class="form-align-box">
-                                <div class="wizard">
-                                    <form role="form" action="index.html" class="register-wizard-box">
-                                        <div class="tab-content" id="main_form">
-                                            <div class="tab-pane active" role="tabpanel" id="step1">
-                                                <div class="form-input-steps">
-                                                    <h4>Setup account for delivery</h4>
-                                                    <h3>Personal information</h3>
-                                                    <div class="form-group">
-                                                        <label>First name</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter first name">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Last name</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter last name">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Business name (if required)</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter business name">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>ABN/TAX no. (if required)</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter ABN/TAX number">
-                                                    </div>
-                                                </div>
-                                                <ul class="list-inline text-right">
-                                                    <li>
-                                                        <button type="button" class="step-btn prev-step"><i class="fa fa-chevron-left"></i><span>Back</span></button>
-                                                    </li>
-                                                    <li>
-                                                        <button type="button" class="step-btn next-step"><span>Next</span><i class="fa fa-chevron-right"></i></button>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="tab-pane" role="tabpanel" id="step2">
-                                                <div class="form-input-steps">
-                                                    <h4>Setup account for delivery</h4>
-                                                    <h3>Contact information</h3>
-                                                    <div class="form-group">
-                                                        <label>Phone</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter phone number">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Mobile</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter mobile number">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Email</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter email address">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Mobile</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter mobile number">
-                                                    </div>
-                                                </div>
-                                                <ul class="list-inline text-right">
-                                                    <li>
-                                                        <button type="button" class="step-btn prev-step"><i class="fa fa-chevron-left"></i><span>Back</span></button>
-                                                    </li>
-                                                    <li>
-                                                        <button type="button" class="step-btn next-step"><span>Next</span><i class="fa fa-chevron-right"></i></button>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="tab-pane" role="tabpanel" id="step3">
-                                                <div class="form-input-steps">
-                                                    <h4>Setup account for delivery</h4>
-                                                    <h3>Create password</h3>
-                                                    <div class="form-group">
-                                                        <label>Create new password</label>
-                                                        <input type="password" class="form-control" name="" placeholder="Create a new password">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Confirm Password</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Re-enter your password">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Create new password</label>
-                                                        <input type="password" class="form-control" name="" placeholder="Create a new password">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Confirm Password</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Re-enter your password">
-                                                    </div>
-                                                </div>
-                                                <ul class="list-inline text-right">
-                                                    <li>
-                                                        <button type="button" class="step-btn prev-step"><i class="fa fa-chevron-left"></i><span>Back</span></button>
-                                                    </li>
-                                                    <li>
-                                                        <button type="button" class="step-btn next-step"><span>Next</span><i class="fa fa-chevron-right"></i></button>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="tab-pane" role="tabpanel" id="step4">
-                                                <div class="form-input-steps">
-                                                    <h4>Setup account for delivery</h4>
-                                                    <h3>Credit card information</h3>
-                                                    <div class="form-group">
-                                                        <label>Card holder name</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter card holder name">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>Card number</label>
-                                                        <input type="text" class="form-control" name="" placeholder="Enter card number">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>MM/YY</label>
-                                                        <input type="text" class="form-control" id="card-month-year" name="" placeholder="MM/YY">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <label>CCV/CVV</label>
-                                                        <input type="text" class="form-control" name="" placeholder="CCV/CVV">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                                            <label class="custom-control-label" for="customCheck1">I agree to all <a href="javascript:void(0)">Terms & Conditions</a></label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <ul class="list-inline text-right">
-                                                    <li>
-                                                        <button type="button" class="step-btn prev-step"><i class="fa fa-chevron-left"></i><span>Back</span></button>
-                                                    </li>
-                                                    <li>
-                                                        <button type="button" class="step-btn next-step"><span>Finish</span><i class="fa fa-chevron-right"></i></button>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="clearfix"></div>
-                                        </div>
-                                    </form>
-                                    <div class="wizard-inner">
-                                        <ul class="nav nav-tabs" role="tablist">
-                                            <li role="presentation">
-                                                <a href="#step1" class="active" data-toggle="tab" aria-controls="step1" role="tab" aria-expanded="true">
-                                                    <span class="round-tab">1</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation">
-                                                <a href="#step2" class="disabled" data-toggle="tab" aria-controls="step2" role="tab" aria-expanded="false">
-                                                    <span class="round-tab">2</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation">
-                                                <a href="#step3" class="disabled" data-toggle="tab" aria-controls="step3" role="tab">
-                                                    <span class="round-tab">3</span>
-                                                </a>
-                                            </li>
-                                            <li role="presentation">
-                                                <a href="#step4" class="disabled" data-toggle="tab" aria-controls="step4" role="tab">
-                                                   <span class="round-tab">4</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <header>Signup Form</header>
+      <div class="progress-bar">
+        <div class="step">
+          <p>
+Name</p>
+<div class="bullet">
+            <span>1</span>
+          </div>
+<div class="check fas fa-check">
+</div>
+</div>
+<div class="step">
+          <p>
+Contact</p>
+<div class="bullet">
+            <span>2</span>
+          </div>
+<div class="check fas fa-check">
+</div>
+</div>
+<div class="step">
+          <p>
+Birth</p>
+<div class="bullet">
+            <span>3</span>
+          </div>
+<div class="check fas fa-check">
+</div>
+</div>
+<div class="step">
+          <p>
+Submit</p>
+<div class="bullet">
+            <span>4</span>
+          </div>
+<div class="check fas fa-check">
+</div>
+</div>
+</div>
+<div class="form-outer">
+        <form action="#">
+          <div class="page slide-page">
+            <div class="title">
+Basic Info:</div>
+<div class="field">
+              <div class="label">
+First Name</div>
+<input type="text">
             </div>
-        </div>
-    </div>
-  <script src=""></script>
+<div class="field">
+              <div class="label">
+Last Name</div>
+<input type="text">
+            </div>
+<div class="field">
+              <button class="firstNext next">Next</button>
+            </div>
+</div>
+<div class="page">
+            <div class="title">
+Contact Info:</div>
+<div class="field">
+              <div class="label">
+Email Address</div>
+<input type="text">
+            </div>
+<div class="field">
+              <div class="label">
+Phone Number</div>
+<input type="Number">
+            </div>
+<div class="field btns">
+              <button class="prev-1 prev">Previous</button>
+              <button class="next-1 next">Next</button>
+            </div>
+</div>
+<div class="page">
+            <div class="title">
+Date of Birth:</div>
+<div class="field">
+              <div class="label">
+Date</div>
+<input type="text">
+            </div>
+<div class="field">
+              <div class="label">
+Gender</div>
+<select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+              </select>
+            </div>
+<div class="field btns">
+              <button class="prev-2 prev">Previous</button>
+              <button class="next-2 next">Next</button>
+            </div>
+</div>
+<div class="page">
+            <div class="title">
+Login Details:</div>
+<div class="field">
+              <div class="label">
+Username</div>
+<input type="text">
+            </div>
+<div class="field">
+              <div class="label">
+Password</div>
+<input type="password">
+            </div>
+<div class="field btns">
+              <button class="prev-3 prev">Previous</button>
+              <button class="submit">Submit</button>
+            </div>
+</div>
+</form>
+</div>
+</div>
+<!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
+<!-- <script src="script.js"></script> -->
+
   </body>
 </html>
