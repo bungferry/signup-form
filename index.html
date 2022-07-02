@@ -9,6 +9,7 @@
     <!-- <title>Multi Step Form | CodingNepal</title> -->
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -16,7 +17,7 @@
       <div class="progress-bar">
         <div class="step">
           <p>
-Name</p>
+Upload</p>
 <div class="bullet">
             <span>1</span>
           </div>
@@ -55,16 +56,12 @@ Submit</p>
         <form action="#">
           <div class="page slide-page">
             <div class="title">
-Basic Info:</div>
+Add Photo:</div>
 <div class="field">
               <div class="label">
-First Name</div>
-<input type="text">
+Upload Photo</div>
+<input id="fileInput" type="file" />
             </div>
-<div class="field">
-              <div class="label">
-Last Name</div>
-<input type="text">
             </div>
 <div class="field">
               <button class="firstNext next">Next</button>
@@ -133,6 +130,7 @@ Password</div>
 </div>
 <!-- Somehow I got an error, so I comment the script tag, just uncomment to use -->
 <script src="step.js"></script>
+<script src="script.js"></script>
 
   </body>
 </html>
